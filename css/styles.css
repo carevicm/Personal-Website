@@ -7,10 +7,11 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
   color: #66BFBF;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -46,6 +47,9 @@ a:hover{
   color: #4D9191;
 
 }
+.futuristic {
+  width: 100%; /* Span the entire width of the viewport */
+}
 
 .top-container {
   background-color: #EAF6F6;
@@ -60,23 +64,18 @@ padding: 100px 0;
 .bottom-container {
   background-color: #3C3C4A;
   padding: 40px 0 20px;
+  align-items: center;
+  align-content: center;
 
 }
 .footer-link{
   color: #66BFBF;
+  align-items: center;
+  align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
 
 .html-icon {
   width: 25%;
@@ -99,11 +98,6 @@ padding: 100px 0;
   color: #66BFBF;
 }
 
-.itcentar {
-  text-decoration: none;
-  color: #66BFBF;
-
-}
 
 .skill-row {
   width: 50%;
@@ -121,7 +115,11 @@ padding: 100px 0;
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 20px;
+  padding-left: 40px;
+
+  align-items: center;
+  align-content: center;
 }
 
 .btn {
